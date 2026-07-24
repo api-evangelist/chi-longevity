@@ -1,7 +1,29 @@
 aid: chi-longevity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chi-longevity.png
 name: Chi Longevity
-description: Chi Longevity is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Chi Longevity is a Singapore-based longevity medicine and healthy-aging clinic
+  that focuses on biological-age optimization rather than reactive medicine,
+  built on The Maier Method developed by co-founder Professor Andrea Maier. The
+  practice combines precision health mapping (blood panels, genetic and cognitive
+  testing, cardiovascular and metabolic analysis), flagship and specialised
+  longevity programmes, cognitive and physical training, a branded NMN supplement,
+  and ongoing support through health coaching, physician and dietitian
+  consultations, and a client portal. Surfaced as a portfolio company of 500 Global
+  and added to the API Evangelist network; no public developer API is currently
+  published, so this profile carries the company identity, domain-security posture,
+  and published web properties rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/chi-longevity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Longevity
+- Healthcare
+- Healthy Aging
+- Precision Health
+- Wellness
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://chilongevity.com
+- type: Portal
+  url: https://app.chilongevity.net
+- type: Login
+  url: https://app.chilongevity.net
+- type: Support
+  url: https://chilongevity.com/contact/
+- type: SignUp
+  url: https://chilongevity.zohobookings.com/
+- type: PrivacyPolicy
+  url: https://chilongevity.com/privacy-policy/
+- type: TermsOfService
+  url: https://chilongevity.com/terms-and-conditions/
+- type: DomainSecurity
+  url: security/chi-longevity-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
